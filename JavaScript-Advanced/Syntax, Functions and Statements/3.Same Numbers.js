@@ -1,4 +1,4 @@
-function checker(number){
+function check(number){
     let numberToString = number.toString();
     const firstNumber = numberToString[0];
     let sum=parseInt(firstNumber);
@@ -15,5 +15,5 @@ function checker(number){
     console.log(sum);
 }
 
-checker(2222222);
-checker(1234);
+check(2222222);
+check(1234);
