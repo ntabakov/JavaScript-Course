@@ -6,7 +6,6 @@
 function magicMatrix(array) {
     let sum = 0;
     array.forEach(x => sum += x[0]);
-    console.log(sum);
 
     for (let row = 0; row < array.length; row++) {
         let currentRowSum = 0;
